@@ -7,3 +7,8 @@ function destructivelyAppendKitten(kittenName) {
   kittens.push(kittenName);
   return kittens;
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+}
